@@ -8,6 +8,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Expose ports
+EXPOSE 5000
 EXPOSE 5900
 EXPOSE 5901
 EXPOSE 5902
