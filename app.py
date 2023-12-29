@@ -43,4 +43,4 @@ def get_vnc_url(host, port):
         return jsonify({'status': 'error', 'message': f'Porta {port} fora do intervalo permitido.'}), 400
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', debug=True)
